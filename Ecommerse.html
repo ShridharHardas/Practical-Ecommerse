@@ -1,0 +1,89 @@
+!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Admin Dashboard</title>
+ 
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+rel="stylesheet"> 
+ <style> 
+ 
+ .sidebar { 
+ position: fixed;
+ top: 0; 
+ left: 0;
+ height: 100%; 
+ width: 240px; 
+ background-color: #3c3a3a; 
+ padding-top: 50px; 
+ } 
+ .sidebar ul { 
+ list-style-type:none; 
+ padding: 10px; 
+ } 
+ .sidebar li { 
+ padding: 8px; 
+ 
+ } 
+ 
+ .content { 
+ margin-left: 260px; 
+ padding: 22px; 
+ } 
+ /* Card styling */ 
+ .card { 
+ margin-bottom: 30px;
+ } 
+ </style> 
+</head> 
+<body> 
+<div class="sidebar"> 
+ <ul> 
+ <li><a href="#">Dashboard</a></li> 
+ <li><a href="#">Orders</a></li> 
+ <li><a href="#">Products</a></li> 
+ <li><a href="#">Customers</a></li> 
+ <li><a href="#">Seƫngs</a></li>
+ </ul> 
+</div> 
+<div class="content"> 
+ <h2>Dashboard</h2> 
+ <div class="row"> 
+ <div class="col-md-4"> 
+ <div class="card"> 
+ <div class="card-body"> 
+ <h5 class="card-title">Total Orders</h5>
+ <p class="card-text">100</p> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col-md-4"> 
+ <div class="card"> 
+ <div class="card-body"> 
+ <h5 class="card-title">Total Revenue</h5>
+ <p class="card-text">$10,000</p> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col-md-4"> 
+ <div class="card"> 
+ <div class="card-body"> 
+ <h5 class="card-title">Total Customers</h5>
+ <p class="card-text">500</p>
+</div> 
+ </div> 
+ </div>
+ <div class="col-md-4"> 
+ <div class="card"> 
+ <div class="card-body"> 
+ <h5 class="card-title">Total Confirmation</h5>
+ <p class="card-text">10</p> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+</div> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body> 
+</html> 
